@@ -1,0 +1,86 @@
+a{
+    color: white;
+    font-size: 24px
+}
+a.niet{
+	text-decoration: none;
+}
+
+a:hover{
+    color: #bef17f;
+}
+header{
+	display: flex;
+}
+#header_image{
+	flex:1;
+}
+#header_texte{
+	flex:2;
+	text-align: right;
+}
+img{
+	width: 150px;
+	height: 200px;
+	border-radius: 15px;
+}
+h1{
+	color: red;
+	font-size: 20px;
+	text-align: right;
+	padding: 20px;
+}
+h2{
+	font-size: 20px;
+	color: black;
+	padding-top: 35px;
+	text-align: right;
+	font-style: italic;
+	padding: 20px;
+}
+progress[value] {
+  -webkit-appearance: none;
+  appearance: none;
+}
+progress[value]::-webkit-progress-bar {
+	background-color: #FF69B4;
+	color: #bef17f;
+	font-size: 20px;
+	border-radius: 8px;
+}
+progress{
+	font-size: 20px;
+}
+#about{
+	display: flex;
+}
+#droite{
+	flex: 2;
+	padding: 20px;
+
+}
+#about_competence{
+	background-color: #80acf2;
+	color: white;
+	border-radius: 15px;
+	width: 100%;
+}
+#about_experience{
+	background-color: #bef17f;
+	color: white;
+	border-radius: 15px;
+	width: 100%;
+}
+#about_lien{
+	background-color: #FF69B4;
+	color: white;
+	flex: 1;
+	padding: 20px;
+	border-radius: 15px;
+	width: 100%;
+}
+body{
+	background: url(fond5.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
